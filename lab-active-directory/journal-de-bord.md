@@ -170,8 +170,6 @@ Captures d'écran prises : Password Policy, `Get-ADDefaultDomainPasswordPolicy`,
 
 ## Bilan des compétences
 
-Ce tableau sert de base pour la fiche portfolio et les entretiens : chaque compétence renvoie aux séances et à une preuve.
-
 | Compétence | Séance(s) | Preuve (capture, script, extrait) |
 | --- | --- | --- |
 | Installation et configuration de Windows Server | 1, 2 |  |
