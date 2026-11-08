@@ -1,10 +1,12 @@
 # Journal de bord — Lab Active Directory
 
-Nov 4, 2026 · @Gamsye
+Lab Windows Server de **BiznesRentab**, PME fictive de 50 salariés. Journal tenu séance par séance : tâches, commandes, difficultés et solutions.
+
+Scripts utilisés : [`scripts/`](scripts/)
 
 ## Fiche projet
 
-Objectif : monter un domaine Active Directory fonctionnel sur une VM Windows Server et le documenter pour le portfolio. Cette fiche se remplit une fois, puis se met à jour si l'environnement change.
+Objectif : monter un domaine Active Directory fonctionnel sur une VM Windows Server, du contrôleur de domaine au poste de travail.
 
 | Élément | Valeur |
 | --- | --- |
@@ -17,61 +19,12 @@ Objectif : monter un domaine Active Directory fonctionnel sur une VM Windows Ser
 | Nom NetBIOS | BIZNESRENTAB |
 | Postes clients | PC-WIN11-01 (Windows 11 Enterprise, adresse par DHCP, OU Ordinateurs/Postes) |
 | Rôles installés | AD DS, DNS, DHCP (étendue 10.0.2.100–200) |
-| Ressources suivies |  |
-
-Hors périmètre : le serveur maison n'est pas joint au domaine.
-
-## Mode d'emploi
-
-Une entrée par séance de travail, la plus récente en haut de la section « Entrées ».
-
-1. Copier le modèle ci-dessous et le coller en tête des entrées.
-2. Remplir au fil de la séance, pas après : les messages d'erreur exacts s'oublient vite.
-3. Noter les commandes telles que tapées, avec le résultat obtenu.
-4. Une difficulté = sa cause + sa solution. Si elle n'est pas résolue, la reporter dans les prochaines étapes.
-5. Ne jamais écrire de mot de passe réel dans le journal.
-
-## Modèle d'entrée
-
-Bloc à copier pour chaque nouvelle séance.
-
-```markdown
-### Séance n°__ — JJ/MM/AAAA
-
-Durée : __ h
-Objectif de la séance : 
-
-#### Tâches effectuées
-- [ ] 
-- [ ] 
-
-#### Commandes et configurations
-| Commande / action | Rôle | Résultat |
-| --- | --- | --- |
-|  |  |  |
-
-#### Difficultés rencontrées
-| Problème (symptôme, message d'erreur) | Cause identifiée | Solution appliquée | Résolu ? |
-| --- | --- | --- | --- |
-|  |  |  |  |
-
-#### Sources consultées
-- 
-
-#### Ce que j'ai appris
-- 
-
-#### Prochaines étapes
-- [ ] 
-
-Captures d'écran prises : 
-```
 
 ## Entrées
 
 ### Séance n°3 — 05/11/2026
 
-Durée : \_\_ h Objectif de la séance : stratégies de groupe, DHCP, poste client Windows 11 et tests par profil d'utilisateur.
+Objectif de la séance : stratégies de groupe, DHCP, poste client Windows 11 et tests par profil d'utilisateur.
 
 #### Tâches effectuées
 
@@ -145,7 +98,7 @@ Captures d'écran prises : Password Policy, `Get-ADDefaultDomainPasswordPolicy`,
 
 ### Séance n°2 — 04/11/2026
 
-Durée : \_\_ h Objectif de la séance : réinstaller le serveur et poser les fondations du domaine BiznesRentab.
+Objectif de la séance : réinstaller le serveur et poser les fondations du domaine BiznesRentab.
 
 #### Tâches effectuées
 
@@ -197,42 +150,23 @@ Durée : \_\_ h Objectif de la séance : réinstaller le serveur et poser les fo
 
 Captures d'écran prises : arborescence des OU, groupes et membres de GG\_Pole-Technique, OU remplie et fiche utilisateur, test de délégation
 
-### Séance n°1 — JJ/MM/AAAA
+### Séance n°1 — Première installation
 
-Durée : \_\_ h Objectif de la séance : préparer le futur contrôleur de domaine
+Objectif de la séance : préparer le futur contrôleur de domaine.
 
 #### Tâches effectuées
 
-- [x] Installation de la VM Windows Server
+- [x] Installation d'une première VM Windows Server
 - [x] Configuration d'une adresse IP fixe
 - [x] Renommage du serveur
-- [ ]
 
-#### Commandes et configurations
+#### Résultat
 
-| Commande / action | Rôle | Résultat |
-| --- | --- | --- |
-|  |  |  |
-
-#### Difficultés rencontrées
-
-| Problème (symptôme, message d'erreur) | Cause identifiée | Solution appliquée | Résolu ? |
-| --- | --- | --- | --- |
-|  |  |  |  |
+Cette première VM a été abandonnée (mot de passe administrateur perdu, édition Server Core installée par erreur) : le serveur a été réinstallé proprement à la séance 2, où AD DS a été déployé.
 
 #### Sources consultées
 
 - Tutoriels Dade Academy
-
-#### Ce que j'ai appris
-
--
-
-#### Prochaines étapes
-
-- [x] Installer le rôle AD DS et promouvoir le serveur en contrôleur de domaine (fait à la séance 2, après réinstallation)
-
-Captures d'écran prises :
 
 ## Bilan des compétences
 

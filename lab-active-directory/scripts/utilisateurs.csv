@@ -1,0 +1,51 @@
+Prenom;Nom;Login;Fonction;Service;OU;Groupe
+Gérard;Lajan;gerard.lajan;Président-directeur général;Direction;OU=Direction,OU=Utilisateurs;GG_Direction
+Murielle;Rosemond;murielle.rosemond;Directrice générale adjointe;Direction;OU=Direction,OU=Utilisateurs;GG_Direction
+Nadège;Sainte-Rose;nadege.sainterose;Assistante de direction;Direction;OU=Direction,OU=Utilisateurs;GG_Direction
+Sonia;Bénéfis;sonia.benefis;Responsable comptable;Comptabilité;OU=Comptabilite,OU=Utilisateurs;GG_Comptabilite
+Patrick;Lordinot;patrick.lordinot;Comptable;Comptabilité;OU=Comptabilite,OU=Utilisateurs;GG_Comptabilite
+Line;Ursulet;line.ursulet;Comptable;Comptabilité;OU=Comptabilite,OU=Utilisateurs;GG_Comptabilite
+Kévin;Monrose;kevin.monrose;Assistant comptable;Comptabilité;OU=Comptabilite,OU=Utilisateurs;GG_Comptabilite
+Josiane;Marie-Sainte;josiane.mariesainte;Responsable RH;Ressources Humaines;OU=RH,OU=Utilisateurs;GG_RH
+Laetitia;Bellance;laetitia.bellance;Chargée de recrutement;Ressources Humaines;OU=RH,OU=Utilisateurs;GG_RH
+Fabrice;Jean-Louis;fabrice.jeanlouis;Gestionnaire paie;Ressources Humaines;OU=RH,OU=Utilisateurs;GG_RH
+Thierry;Larcher;thierry.larcher;Directeur commercial;Commercial;OU=Commercial,OU=Utilisateurs;GG_Commercial
+Cindy;Alexandre;cindy.alexandre;Ingénieure commerciale;Commercial;OU=Commercial,OU=Utilisateurs;GG_Commercial
+Marc;Pierre-Charles;marc.pierrecharles;Ingénieur commercial;Commercial;OU=Commercial,OU=Utilisateurs;GG_Commercial
+Stéphanie;Agricole;stephanie.agricole;Ingénieure commerciale;Commercial;OU=Commercial,OU=Utilisateurs;GG_Commercial
+Jérôme;Nicolas;jerome.nicolas;Ingénieur commercial;Commercial;OU=Commercial,OU=Utilisateurs;GG_Commercial
+Audrey;Victorin;audrey.victorin;Chargée d'affaires collectivités;Commercial;OU=Commercial,OU=Utilisateurs;GG_Commercial
+Willy;Placide;willy.placide;Chargé d'affaires collectivités;Commercial;OU=Commercial,OU=Utilisateurs;GG_Commercial
+Vanessa;Cyrille;vanessa.cyrille;Assistante commerciale;Commercial;OU=Commercial,OU=Utilisateurs;GG_Commercial
+Dimitri;Thalmensy;dimitri.thalmensy;Responsable informatique;Service informatique;OU=Service-Informatique,OU=Utilisateurs;GG_Service-Informatique
+Anaïs;Lucien;anais.lucien;Technicienne informatique;Service informatique;OU=Service-Informatique,OU=Utilisateurs;GG_Service-Informatique
+Olivier;Saint-Cyr;olivier.saintcyr;Responsable infrastructure;Pôle Technique - Infrastructure;OU=Infrastructure,OU=Pole-Technique,OU=Utilisateurs;GG_Infrastructure
+Steeve;Zobda;steeve.zobda;Ingénieur systèmes;Pôle Technique - Infrastructure;OU=Infrastructure,OU=Pole-Technique,OU=Utilisateurs;GG_Infrastructure
+Mélanie;Desroses;melanie.desroses;Ingénieure systèmes;Pôle Technique - Infrastructure;OU=Infrastructure,OU=Pole-Technique,OU=Utilisateurs;GG_Infrastructure
+Rudy;Hippocrate;rudy.hippocrate;Ingénieur systèmes;Pôle Technique - Infrastructure;OU=Infrastructure,OU=Pole-Technique,OU=Utilisateurs;GG_Infrastructure
+Johan;Tanic;johan.tanic;Ingénieur systèmes;Pôle Technique - Infrastructure;OU=Infrastructure,OU=Pole-Technique,OU=Utilisateurs;GG_Infrastructure
+Karine;Bourgade;karine.bourgade;Ingénieure réseau;Pôle Technique - Infrastructure;OU=Infrastructure,OU=Pole-Technique,OU=Utilisateurs;GG_Infrastructure
+Cédric;Moutoussamy;cedric.moutoussamy;Ingénieur réseau;Pôle Technique - Infrastructure;OU=Infrastructure,OU=Pole-Technique,OU=Utilisateurs;GG_Infrastructure
+Frédéric;Lafontaine;frederic.lafontaine;Ingénieur réseau;Pôle Technique - Infrastructure;OU=Infrastructure,OU=Pole-Technique,OU=Utilisateurs;GG_Infrastructure
+Sabrina;Marlin;sabrina.marlin;Technicienne systèmes;Pôle Technique - Infrastructure;OU=Infrastructure,OU=Pole-Technique,OU=Utilisateurs;GG_Infrastructure
+Teddy;Ramassamy;teddy.ramassamy;Technicien systèmes;Pôle Technique - Infrastructure;OU=Infrastructure,OU=Pole-Technique,OU=Utilisateurs;GG_Infrastructure
+Grégory;Joseph;gregory.joseph;Technicien systèmes;Pôle Technique - Infrastructure;OU=Infrastructure,OU=Pole-Technique,OU=Utilisateurs;GG_Infrastructure
+Élodie;Jean-Baptiste;elodie.jeanbaptiste;Technicienne systèmes;Pôle Technique - Infrastructure;OU=Infrastructure,OU=Pole-Technique,OU=Utilisateurs;GG_Infrastructure
+Christophe;Bernus;christophe.bernus;Responsable IA & automatisation;Pôle Technique - IA & Automatisation;OU=IA-Automatisation,OU=Pole-Technique,OU=Utilisateurs;GG_IA-Automatisation
+Manon;Édouard;manon.edouard;Ingénieure IA;Pôle Technique - IA & Automatisation;OU=IA-Automatisation,OU=Pole-Technique,OU=Utilisateurs;GG_IA-Automatisation
+Kenny;Lubin;kenny.lubin;Ingénieur IA;Pôle Technique - IA & Automatisation;OU=IA-Automatisation,OU=Pole-Technique,OU=Utilisateurs;GG_IA-Automatisation
+Axel;Rengassamy;axel.rengassamy;Ingénieur IA;Pôle Technique - IA & Automatisation;OU=IA-Automatisation,OU=Pole-Technique,OU=Utilisateurs;GG_IA-Automatisation
+Lisa;Mathurin;lisa.mathurin;Développeuse automatisation;Pôle Technique - IA & Automatisation;OU=IA-Automatisation,OU=Pole-Technique,OU=Utilisateurs;GG_IA-Automatisation
+Jordan;Félicité;jordan.felicite;Développeur automatisation;Pôle Technique - IA & Automatisation;OU=IA-Automatisation,OU=Pole-Technique,OU=Utilisateurs;GG_IA-Automatisation
+Inès;Charlery;ines.charlery;Développeuse automatisation;Pôle Technique - IA & Automatisation;OU=IA-Automatisation,OU=Pole-Technique,OU=Utilisateurs;GG_IA-Automatisation
+Loïc;Sylvestre;loic.sylvestre;Développeur automatisation;Pôle Technique - IA & Automatisation;OU=IA-Automatisation,OU=Pole-Technique,OU=Utilisateurs;GG_IA-Automatisation
+Morgane;Duféal;morgane.dufeal;Data engineer;Pôle Technique - IA & Automatisation;OU=IA-Automatisation,OU=Pole-Technique,OU=Utilisateurs;GG_IA-Automatisation
+Ryan;Clémenté;ryan.clemente;Data engineer;Pôle Technique - IA & Automatisation;OU=IA-Automatisation,OU=Pole-Technique,OU=Utilisateurs;GG_IA-Automatisation
+Valérie;Daniel;valerie.daniel;Responsable support client;Pôle Technique - Support client;OU=Support-Client,OU=Pole-Technique,OU=Utilisateurs;GG_Support-Client
+Dylan;Popote;dylan.popote;Technicien support;Pôle Technique - Support client;OU=Support-Client,OU=Pole-Technique,OU=Utilisateurs;GG_Support-Client
+Océane;Gertrude;oceane.gertrude;Technicienne support;Pôle Technique - Support client;OU=Support-Client,OU=Pole-Technique,OU=Utilisateurs;GG_Support-Client
+Mickaël;Romain;mickael.romain;Technicien support;Pôle Technique - Support client;OU=Support-Client,OU=Pole-Technique,OU=Utilisateurs;GG_Support-Client
+Jessica;Ernest;jessica.ernest;Technicienne support;Pôle Technique - Support client;OU=Support-Client,OU=Pole-Technique,OU=Utilisateurs;GG_Support-Client
+Bryan;Hilaire;bryan.hilaire;Technicien support;Pôle Technique - Support client;OU=Support-Client,OU=Pole-Technique,OU=Utilisateurs;GG_Support-Client
+Sarah;Fortuné;sarah.fortune;Technicienne support N2;Pôle Technique - Support client;OU=Support-Client,OU=Pole-Technique,OU=Utilisateurs;GG_Support-Client
+Nicolas;Boisdur;nicolas.boisdur;Technicien support N2;Pôle Technique - Support client;OU=Support-Client,OU=Pole-Technique,OU=Utilisateurs;GG_Support-Client
