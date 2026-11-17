@@ -2,6 +2,8 @@
 
 Lab Windows Server de **BiznesRentab**, PME fictive de 50 salariés. Journal tenu séance par séance : tâches, commandes, difficultés et solutions.
 
+Fiche projet (1 page, PDF) : [fiche-projet-lab-ad.pdf](https://yourir.github.io/lab-active-directory/fiche-projet-lab-ad.pdf)
+
 Scripts utilisés : [`scripts/`](scripts/)
 
 ## Fiche projet
